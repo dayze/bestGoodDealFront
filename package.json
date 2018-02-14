@@ -1,0 +1,34 @@
+{
+  "name": "bestGoodDeal",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "react": "16.2.0",
+    "react-native": "0.53.0",
+    "react-native-camera": "^0.13.0",
+    "react-native-config": "^0.11.5",
+    "react-native-elements": "^0.19.0",
+    "react-native-maps": "git://github.com/react-community/react-native-maps.git#9f592ba",
+    "react-native-modal": "^5.0.0",
+    "react-native-router-flux": "^4.0.0-beta.28",
+    "react-native-snap-carousel": "^3.6.0",
+    "react-native-vector-icons": "^4.5.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-jest": "22.1.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.1.4",
+    "react-test-renderer": "16.2.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
